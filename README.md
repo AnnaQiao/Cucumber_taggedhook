@@ -19,6 +19,9 @@ the webdriver session. SO, It is actually  not relevent to the essence of "Given
 - Step 2: create a feature file as "taggedHooks"
 - Step 3: create a stepdefinition as "taggedHooksStepDefinition", as the below picture:
 ![](https://github.com/AnnaQiao/Cucumber_taggedhook/blob/master/pictures/stepdefinition.JPG)
+
 - Step4: run the three scenarios of this feature, result as below picture:
+
 ![](https://github.com/AnnaQiao/Cucumber_taggedhook/blob/master/pictures/console.JPG)
-Acording to result of running, we know @Before() and @After() will run any before or after scenarios, also we can indicate if we use the tags like  @First,@Second,this hooks only run before or after this tagged scenarios.
+
+- Acording to result of running, we know @Before() and @After() will run any before or after scenarios, also we can indicate if we use the tags like  @First,@Second,this hooks only run before or after this tagged scenarios.
